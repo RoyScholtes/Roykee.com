@@ -1,0 +1,207 @@
+head,
+body {
+  /* Background on the HomePage */
+  background-image: url("/Images/BG_HomePage.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(17%);
+  background-size: cover;
+}
+
+.portrait_img {
+  width: 400px;
+  overflow: hidden;
+}
+
+/* Navigation menu */
+
+.Nav-customize {
+  background: #300F42;
+  background: -moz-linear-gradient(45deg, #300F42 0%, #114466 47%, #052602 100%);
+  background: -webkit-linear-gradient(45deg, #300F42 0%, #114466 47%, #052602 100%);
+  background: linear-gradient(45deg, #300F42 0%, #114466 47%, #052602 100%);
+  color: white;
+  height: 8%;
+}
+
+.nav-btn {
+  color: rgb(190, 190, 190);
+  text-shadow: 2px 3px 10px rgb(185, 171, 171);
+  font-size: large;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 1px solid #ae00ff !important;
+  margin: 5px;
+}
+
+.nav-btn:hover {
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  color: rgb(226, 225, 225);
+
+}
+
+.nav-logo {
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgb(156, 23, 189);
+  overflow: hidden;
+  text-decoration: wavy;
+}
+
+nav {
+  padding: 5px 20px 5px 10px !important;
+  border-radius: 0px 0px 5px 5px;
+  border-bottom: 2px solid rgb(143, 22, 199);
+  border-left: 2px solid rgb(143, 22, 199);
+  border-right: 2px solid rgb(143, 22, 199);
+}
+
+.btn-purple {
+  border: 1px solid #ae00ff !important;
+  color: rgb(0, 110, 255);
+}
+
+.input-style {
+  Background-color: rgba(117, 150, 241, 0.219);
+  border: 1px solid #ae00ff !important;
+  color: rgb(0, 110, 255);
+}
+
+.input-style:focus {
+  Background-color: rgba(93, 124, 211, 0.219);
+  border: 1px solid #ae00ff !important;
+  color: rgb(0, 110, 255);
+}
+
+
+
+
+/* content block */
+
+
+
+
+.images {
+  grid-area: img_1;
+
+}
+
+.articles {
+  grid-area: article_1;
+  padding: 5px 10px 0px 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+  border-radius: 25px;
+  color: #8f03cfed;
+  text-shadow: 0px 3px 8px black;
+
+  text-align: center;
+  max-width: 63%;
+  background-color: rgba(117, 150, 241, 0.219);
+  border: 15px rgb(0, 0, 29) solid;
+
+  box-shadow: -5px 10px 15px rgba(122, 24, 131, 0.431);
+}
+
+.articles:hover{
+  grid-area: article_1;
+  padding: 5px 10px 0px 10px;
+  margin-right: 0px;
+  margin-left: 20px;
+  border-radius: 25px;
+  color: #d739ffed;
+  text-shadow: 0px 3px 8px black;
+
+  text-align: center;
+  max-width: 63%;
+  background-color: rgba(117, 150, 241, 0.219);
+  border: 15px rgb(0, 0, 29) solid;
+
+  box-shadow: 5px 10px 15px rgba(122, 24, 131, 0.431);
+}
+
+.articles-red:hover,
+.articles-green:hover,
+.image:hover {
+  box-shadow: 0px 0px 20px rgb(0, 110, 255);
+  color: #bb27ffed !important;
+}
+
+.text-green:hover,
+.text-red:hover {
+  color: #bb27ffed !important;
+}
+
+
+
+.image {
+  height: 100%;
+  min-height: 40vh;
+  max-height: 40vh;
+  object-fit: cover;
+  border: 15px rgb(0, 0, 29) solid;
+  background-color: black;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 20px;
+  box-shadow: -5px 10px 8px rgba(122, 24, 131, 0.431);
+  transition: 350ms ease-in-out;
+
+}
+
+
+.title-green {
+  color: #8f03cfed;
+  text-align: center;
+}
+
+.title-red {
+  color: #8f03cfed;
+  text-align: center;
+
+}
+
+.text-green {
+  color: #8f03cfed;
+  text-align: center;
+  font-weight: 550;
+  text-shadow: 0px 3px 8px black;
+
+
+}
+
+.text-red {
+  color: #8f03cfed;
+  text-align: center;
+  font-weight: 550;
+  text-shadow: 0px 3px 8px black;
+
+}
+
+/* Page Footer */
+
+.foot-style {
+  background-color: rgba(19, 18, 18, 0.712);
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.foot-text {
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+/* SM Buttons */
+
+
+
+
+
+
+
+
+
+
+/* !  Test  */
